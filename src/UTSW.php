@@ -73,6 +73,22 @@ class UTSW{
         return implode("|->|",$n_content);
     }
     /*
+    从数组中提取一个长尾词
+    FindLongWord($array)
+    */
+    public function FindLongWord($array){
+        $longword="";
+        $longlength=0;
+        foreach($array as $element){
+            $length=mb_strlen($element); 
+            if($length>$longlength){
+                $longlength=$length;
+                $longword=$element;
+            }
+        }
+        return $longword;
+    }
+    /*
     分隔文本段落
     SplitContent($content)
     */
