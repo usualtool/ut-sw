@@ -1,6 +1,6 @@
 {
     "name":             "usualtool/ut-sw",
-    "description":      "UT framework extension:Split Words-UTSW.",
+    "description":      "UT Framework Extension:Split Words-UTSW.",
     "keywords":         ["ut-sw", "usualtool", "UT Framework"],
     "homepage":         "https://github.com/usualtool",
     "license": "GPL-2.0",
